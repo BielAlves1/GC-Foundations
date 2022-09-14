@@ -1,0 +1,38 @@
+Como iniciar um projeto novo:
+
+1 - Ative o Google Cloud Shell
+
+/*O Google Cloud Shell é uma máquina virtual com ferramentas de desenvolvimento. 
+Ele conta com um diretório principal permanente de 5 GB e é executado no Google Cloud. 
+O Google Cloud Shell permite acesso de linha de comando aos seus recursos do GCP.*/
+
+1. No Console do GCP, na barra de ferramentas superior direita, clique no botão Abrir o Cloud Shell.
+
+/*gcloud é a ferramenta de linha de comando do Google Cloud Platform. Ele vem pré-instalado no Cloud Shell e aceita preenchimento com tabulação.*/
+
+/*É possível listar o nome da conta ativa com este comando:*/
+gcloud auth list
+
+*/É possível listar o ID de projeto com este comando:/*
+gcloud config list project
+	
+2 -Crie uma instância de máquina virtual
+
+1.No Console do Cloud, acesse o Menu de navegação Menu de navegação, selecione Compute Engine > Instâncias de VM e depois clique em Criar instância.
+2.Despois defina as propriedades na configuração dessa nova instância.
+3.Clique em Criar.
+
+/*Levará cerca de um minuto para a máquina ser criada. Depois disso, a nova máquina virtual aparece na página Instâncias de VM.*/
+
+4.Na linha da sua máquina virtual, clique em SSH, para se conectar a ela usando SSH.
+
+/*Isso vai iniciar o cliente SSH diretamente no navegador.*/
+
+/*Agora você vai instalar um servidor da Web NGINX, um dos servidores mais conhecidos do mundo, para conectar sua máquina virtual a algo.*/
+
+5.Atualize o SO:
+6. sudo apt-get update
+
+
+
+
